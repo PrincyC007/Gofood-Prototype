@@ -1,0 +1,543 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: aliceblue;
+}
+
+.webpage {
+    padding: 10px;
+    display: flex;
+}
+
+.webpage .part1 {
+    rotate: 270deg;
+    /* border: 1px solid red; */
+    height: fit-content;
+    width: fit-content;
+    margin-top: 70%;
+    margin-left: -50px;
+    font-size: 50px;
+    text-align: center;
+    line-height: 4px;
+}
+
+.webpage .part1 .mini {
+    font-size: 25px;
+    font-weight: bolder;
+
+}
+
+.webpage .part1 .maxi {
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+
+.webpage .part2 {
+    border: 7px solid white;
+    margin-left: -1%;
+    width: 80%;
+    height: max-content;
+    box-shadow: 5px 10px 10px 15px grey;
+    border-radius: 30px;
+    position: relative;
+}
+
+.webpage .part2 nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.webpage .part2 .logo {
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 5px;
+    font-size: 25px;
+    margin-top: -0.7px;
+}
+
+.webpage .part2 nav ul {
+    display: flex;
+    list-style: none;
+    margin-left: 20%;
+}
+
+.webpage .part2 nav ul li a {
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+    padding-left: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.webpage .part2 nav .fa-search {
+    padding-top: 18px;
+    color: black;
+    padding-right: 15px;
+}
+
+.webpage .part2 nav .fa-shopping-cart {
+    padding-top: 18px;
+    color: black;
+    padding-left: 15px;
+}
+
+.webpage .part2 nav .signup {
+    width: 150px;
+    height: 50px;
+    margin-left: -130px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(216, 5, 5);
+    border-radius: 5px;
+    border: none;
+}
+
+/* Hero Section */
+.webpage .part2 .hero {
+    display: flex;
+
+}
+
+.red {
+    color: rgb(216, 5, 5);
+}
+
+.webpage .part2 .hero {
+    margin-left: 65px;
+}
+
+.webpage .part2 .hero h3 {
+    font-size: 50px;
+}
+
+.webpage .part2 .hero p {
+    font-weight: bold;
+    font-size: medium;
+}
+
+.webpage .part2 .hero .ordernow {
+    height: 50px;
+    width: 120px;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(216, 5, 5);
+    border-radius: 5px;
+    border: none;
+    margin-right: 30px;
+}
+
+.webpage .part2 .hero .download {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* HERO 2 SECTION */
+.webpage .part2 .hero .exp {
+    margin-right: 20%;
+}
+
+.webpage .part2 .hero2 .popular {
+    margin-left: 40%;
+    font-size: 25px;
+}
+
+.webpage .part2 .hero2 .foodnames {
+    display: flex;
+    justify-content: space-around;
+}
+
+.webpage .part2 .hero2 .foodnames .food {
+    /* border: 1px solid red; */
+    color: red;
+    text-align: center;
+    width: 250px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    background-color: whitesmoke;
+}
+
+.webpage .part2 .hero2 .foodpictures {
+    /* border: 1px solid green;  */
+    display: flex;
+    justify-content: space-around;
+}
+
+.webpage .part2 .hero2 .foodpictures .foodie {
+    /* border: 1px solid blue; */
+    width: 250px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.webpage .part2 .hero2 .foodpictures .foodie .addcart {
+    margin-bottom: 20px;
+    padding: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: rgb(216, 5, 5);
+}
+
+.webpage .part2 .hero2 .foodpictures .foodie img {
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.webpage .part2 .hero2 .foodpictures .foodie p {
+    font-weight: bolder;
+}
+
+.webpage .part2 .hero2 .foodpictures .foodie p .price {
+    font-weight: lighter;
+}
+
+.webpage .part2 .hero2 .foodpictures .foodie .fa-star,
+.webpage .part2 .hero2 .foodpictures .foodie .fa-star-half {
+    color: gold;
+}
+
+/* Hero3 section */
+.webpage .part2 .hero3 {
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.webpage .part2 .hero3 .home {
+    margin-top: 180px;
+    margin-left: 10px;
+    /* border: 1px solid pink; */
+    background-color: beige;
+    width: 750px;
+}
+
+.webpage .part2 .hero3 .home .sithome {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.webpage .part2 .hero3 .home .relax {
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.webpage .part2 .hero3 .home .promises {
+    display: flex;
+    justify-content: space-around;
+}
+
+.webpage .part2 .hero3 .home .promises .vow {
+    /* border: 1px solid purple; */
+    text-align: center;
+    margin-right: 50px;
+    width: 150px;
+    margin-bottom: 50px;
+}
+
+.webpage .part2 .hero3 .home .promises .vow .fa-shipping-fast,
+.webpage .part2 .hero3 .home .promises .vow .fa-3x {
+    color: rgb(216, 5, 5);
+}
+
+.webpage .part2 .hero3 .home .promises .vow p {
+    font-weight: bold;
+}
+
+.webpage .part2 .hero3 .home .readmore {
+    padding: 15px;
+    width: 150px;
+    font-weight: bold;
+    color: white;
+    background: rgb(216, 5, 5);
+    border: none;
+    border-radius: 5px;
+}
+
+/* Hero4 section  */
+.webpage .part2 .hero4 .toprest {
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 45%;
+}
+
+.webpage .part2 .hero4 .chopinson {
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 1px solid crimson; */
+    padding-right: 50px;
+}
+
+.webpage .part2 .hero4 .chopinson .listings {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: -10px;
+    background-color: white;
+    margin-bottom: 50px;
+
+}
+
+.webpage .part2 .hero4 .chopinson .pizzahut .listings {
+    padding-top: 15px;
+}
+
+.webpage .part2 .hero4 .chopinson .listings .business .businessname {
+    font-weight: bold;
+}
+
+.webpage .part2 .hero4 .chopinson .listings .business .businesstime {
+    font-weight: light;
+}
+
+.webpage .part2 .hero4 .chopinson img {
+    border-radius: 15px;
+}
+
+.webpage .part2 .hero4 .chopinson .listings .arrow {
+    margin-top: 25px;
+    padding: 10px;
+    width: 80px;
+    text-align: center;
+    background-color: rgb(216, 5, 5);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.webpage .part2 .hero4 .chopinson .pizzahut .listings .arrow {
+    padding: 25px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.webpage .part2 .hero4 .seemore {
+    padding: 15px;
+    width: 150px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 45%;
+    background-color: rgb(216, 5, 5);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 150px;
+}
+
+/* Hero5 section */
+.webpage .part2 .hero5 {
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+    margin-bottom: 100px;
+}
+
+.webpage .part2 .hero5 .reason .client {
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid yellow; */
+}
+
+.webpage .part2 .hero5 .reason .client .clientname {
+    margin-left: -150px;
+
+}
+
+.webpage .part2 .hero5 .reason .client .clientname .alx {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.webpage .part2 .hero5 .reason .scrollarrow {
+    padding-top: 10%;
+    margin-right: -120px;
+}
+
+.webpage .part2 .hero5 .reason .choose {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.webpage .part2 .hero5 .reason .quotation {
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.webpage .part2 .hero5 .reason .left {
+    text-align: right;
+}
+
+.webpage .part2 .hero5 .reason .text1 {
+    text-align: justify;
+    font-weight: medium;
+}
+
+/* Hero6 section */
+.webpage .part2 .hero6 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 150px;
+}
+
+.webpage .part2 .hero6 .application .downloadsites {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid orange; */
+    margin-top: 50px;
+}
+
+.webpage .part2 .hero6 .application .downloadsites .google,
+.webpage .part2 .hero6 .application .downloadsites .apple {
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    /* border: 1px solid indigo; */
+    border-radius: 30px;
+    background-color: black;
+    color: rgb(216, 210, 210);
+    font-size: 15px;
+
+}
+
+.webpage .part2 .hero6 .application .downloadsites .google .goo,
+.webpage .part2 .hero6 .application .downloadsites .apple .app {
+    padding-top: 25px;
+    padding-right: 15px;
+    padding-left: 5px;
+    text-align: justify;
+}
+
+.webpage .part2 .hero6 .application .getmoreapp {
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.webpage .part2 .hero6 .application .listings .numbering {
+    padding: 25px;
+    font-size: 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(216, 5, 5);
+    color: white;
+    margin-right: 20px;
+}
+
+.webpage .part2 .hero6 .downloadpicture img {
+    margin-top: 150px;
+}
+
+.webpage .part2 .hero6 .application .downloadsites .apple {
+    margin-left: 200px;
+    position: absolute;
+}
+
+/* Hero7 section */
+.webpage .part2 .hero7 .container {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-left: 18%;
+    background-color: rgb(216, 5, 5);
+    height: 150px;
+    position: relative;
+    z-index: 1;
+    top: 70px;
+}
+
+.webpage .part2 .hero7 .container .instr {
+    line-height: 0.1px;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+
+.webpage .part2 .hero7 .container .instr .dis {
+    font-size: 12px;
+    color: white;
+}
+
+.webpage .part2 .hero7 .container .instr .sub {
+    font-size: 25px;
+    color: white;
+}
+
+.webpage .part2 .hero7 .container .response {
+    display: flex;
+    margin-right: 20px;
+    margin-top: 50px;
+    background-color: white;
+    height: 55px;
+    border-radius: 5px;
+}
+
+.webpage .part2 .hero7 .container .response input {
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.webpage .part2 .hero7 .container .response .subscribemail {
+    padding: 12px;
+    margin-top: 8px;
+    margin-right: 5px;
+    background-color: rgb(216, 5, 5);
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Hero8 section */
+.webpage .part2 .hero8 img {
+    position: relative;
+}
+
+.webpage .part2 .hero9 .lol {
+    /* border: 1px solid black; */
+    height: fit-content;
+    width: 250px;
+    text-align: center;
+    position: absolute;
+    top: 4880px;
+    left: 590px;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 20px;
+
+}
+
+.webpage .part2 .hero9 .lol .reachout {
+    display: flex;
+    justify-content: space-around;
+    color: rgb(216, 5, 5);
+
+}
+
+.webpage .part2 .hero9 .lol .h1 {
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.webpage .part2 .hero9 .lol .h2 {
+    font-weight: bolder;
+}
+
+.webpage .part2 .hero9 .lol .h3 {
+    font-weight: bolder;
+}
+
+
+
+
+
+.webpage .part2 .last {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(216, 5, 5);
+    border-radius: 0px 0px 30px 30px;
+}

@@ -1,0 +1,70 @@
+.webpage .part2 nav .signup:hover,
+.webpage .part2 .hero2 .foodpictures .foodie .addcart:hover,
+.webpage .part2 .hero .ordernow:hover {
+    background-color: whitesmoke;
+    color: rgb(216, 5, 5);
+    cursor: pointer;
+}
+
+.webpage .part2 .hero2 .foodnames .food:hover {
+    background-color: rgb(216, 5, 5);
+    color: white;
+    cursor: pointer;
+}
+
+.webpage .part2 .hero .download:hover {
+    color: purple;
+    cursor: pointer;
+}
+
+.webpage .part2 .hero4 .seemore:hover {
+    color: rgb(216, 5, 5);
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.webpage .part2 .hero4 .chopinson .listings .arrow:hover {
+    color: rgb(216, 5, 5);
+    background-color: rgb(207, 197, 197);
+    cursor: pointer;
+}
+
+.webpage .part2 .hero3 .home .readmore:hover {
+    color: rgb(216, 5, 5);
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.webpage .part2 nav ul li a:hover {
+    color: rgb(216, 5, 5);
+}
+
+.webpage .part2 .hero5 .reason .scrollarrow .fa-arrow-left:hover {
+    cursor: pointer;
+    color: rgb(216, 5, 5);
+    transition: 1s;
+}
+
+.webpage .part2 .hero5 .reason .scrollarrow .fa-arrow-right:hover {
+    cursor: pointer;
+    color: rgb(216, 5, 5);
+    transition: 1s;
+}
+
+.webpage .part2 .hero6 .application .downloadsites .google:hover {
+    background-color: rgb(216, 210, 210);
+    color: black;
+    cursor: pointer;
+}
+
+.webpage .part2 .hero6 .application .downloadsites .apple:hover {
+    background-color: rgb(216, 210, 210);
+    color: black;
+    cursor: pointer;
+}
+
+.webpage .part2 .hero7 .container .response .subscribemail:hover {
+    color: rgb(216, 5, 5);
+    background-color: rgb(216, 210, 210);
+    cursor: pointer;
+}
